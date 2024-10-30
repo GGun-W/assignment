@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인</title>
+    <style>
+        @font-face {
+            font-family: 'FlightSans-Bold';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/FlightSans-Bold.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        body {
+                background: url(./bike-8337261_1280.jpg) no-repeat fixed center/cover;
+                box-sizing: border-box;
+                padding: 0px;
+                margin: 0px;
+            }
+        .main_container {
+                box-sizing: border-box;
+            }
+
+        .big_title {
+                color: beige;
+                font-size: 75px;
+                font-family: 'FlightSans-Bold';
+                margin: 100px auto 100px auto;
+            }
+
+        .menu-bar {
+                box-sizing: border-box;
+                background-color: #333;
+                padding: 10px;
+                width: 400px;
+                height: 800px;
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 200px;
+            }
+
+        .menu-bar a {
+                color: white;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-size: 30px;
+                margin-bottom: 30px;
+            }
+
+        .menu-bar a:hover {
+                background-color: #555;
+                border-radius: 5px;
+            }
+
+        .top_links {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                font-size: 20px;
+            }
+
+        .top_links a {
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+            }
+    </style>
+</head>
+<body>
+    <div class="top_links">
+        <a href="이력서.html" target="_self">이력서</a>
+        <a href="즐겨찾기.html" target="_self">즐겨찾기</a>
+        <a href="로그인.html" target="_self">로그인</a>
+        <a href="회원가입.html" target="_self">회원가입</a>
+        
+    </div>
+    <div class="main_container">
+        <div class="menu-bar">
+            <p class="big_title">Portfolio</p>
+            <a href="#home">  ܤ   Home</a>
+            <a href="#about">  ܤ   About</a>
+            <a href="#services">  ܤ   Services </a>
+            <a href="#contact">  ܤ  즐겨찾기 </a>
+        </div>
+    </div>
+    <iframe id="contentFrame" name="contentFrame" style="width:100%; height:600px; border:none;" src=""></iframe>
+</body>
+</html>

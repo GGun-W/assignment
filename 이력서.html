@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+                box-sizing: border-box;
+                padding: 0px;
+                margin: 0px;
+        }
+
+        .main_container {
+                box-sizing: border-box;
+                padding: 50px 20px;
+                width: 1000px;
+                border: 1px solid black;
+                margin: 50px;
+        }
+        .title_container {
+                box-sizing: border-box;
+                width: 100%;
+                padding: 50px 150px 50px 150px;
+                text-align: center;
+        }
+        .content_container {  
+                box-sizing: border-box;                
+                width: 100%;
+        }
+        .section {
+                margin-top: 30px;
+        }
+        table {
+                width: 100%;
+                border-collapse: collapse;
+        }
+        td, th {
+                border: 1px solid black;
+                padding: 10px;
+                text-align: center;
+        }
+        input {
+                width: 100%;
+                box-sizing: border-box;
+                border: none;
+                padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main_container">
+        <div class="title_container">
+            <h1>이력서</h1>
+        </div>
+        <div class="content_container">
+            <div class="section">
+                <table>
+                    <tr>
+                        <td>이름</td>
+                        <td><input type="text" ></td>
+                        <td>지원분야</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>학번</td>
+                        <td><input type="text" ></td>
+                        <td>생년월일</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>e-mail</td>
+                        <td><input type="email" ></td>
+                        <td>연락처</td>
+                        <td><input type="text" ></td>
+                    </tr>
+                    <tr>
+                        <td>주소</td>
+                        <td colspan="3"><input type="text" ></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section">
+                <h3>학력사항</h3>
+                <table>
+                    <tr>
+                        <th>재학기간</th>
+                        <th>학교명 및 전공</th>
+                        <th>학점</th>
+                        <th>소재지</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section">
+                <h3>경험사항 (교내외 활동, 아르바이트 등)</h3>
+                <table>
+                    <tr>
+                        <th>근무기간</th>
+                        <th>근무회사</th>
+                        <th>부서</th>
+                        <th>담당직무</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section">
+                <h3>자격증</h3>
+                <table>
+                    <tr>
+                        <th>취득일자</th>
+                        <th>자격증/면허증</th>
+                        <th>등급</th>
+                        <th>발급처</th>
+                        <th>비고</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section">
+                <h3>외국어능력</h3>
+                <table>
+                    <tr>
+                        <th>외국어명</th>
+                        <th>시험명</th>
+                        <th>점수 (등급)</th>
+                        <th>응시년월</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="section">
+                <h3>교육/연수/봉사활동</h3>
+                <table>
+                    <tr>
+                        <th>근무기간</th>
+                        <th>근무처</th>
+                        <th>부서</th>
+                        <th>담당직무</th>
+                    </tr>
+                    <tr>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                        <td><input type="text" ></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
